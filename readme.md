@@ -1,4 +1,4 @@
-# TV Show Search App
+# K-FLIX ( TV Show Search App)
 
 This is a simple web application that allows users to search for TV shows using the TVmaze API. The application displays the resulting TV show images in a responsive grid layout. The layout is styled using the Bulma CSS framework and custom CSS for flexbox properties.
 
