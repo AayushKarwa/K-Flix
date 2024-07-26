@@ -3,29 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TV show search</title>
+    <title>Movie Search</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css">
+    <style>
+        .movie-card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 200px;
+            margin: 10px;
+        }
+        .movie-info {
+            text-align: center;
+        }
+        #container, #latestMoviesContainer {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+        }
+    </style>
 </head>
 <body>
-    <section class="section">
-    <div class="container">
-        <h1 class="title">TV Show Search</h1>
-        <form id="searchForm" class="field has-addons">
-            <div class="control is-expanded">
-                <input class="input" type="text" name="query" placeholder="Search for a TV show...">
-            </div>
-            <div class="control">
-                <button class="button is-primary" type="submit">Search</button>
-            </div>
-        </form>
-    </div>
-</section>
+    
 
-<section class="section">
-    <div class="container" id="container" style="display: flex; flex-wrap: wrap; gap: 10px;">
-       
-    </div>
-</section>
+    <section class="section">
+        <div class="container">
+            <h1 class="title">Movie Search</h1>
+            <form id="searchForm" class="field has-addons">
+                <div class="control is-expanded">
+                    <input class="input" type="text" name="query" placeholder="Search for a movie...">
+                </div>
+                <div class="control">
+                    <button class="button is-primary" type="submit">Search</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container" id="container"></div>
+    </section>
+    
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="app.js"></script>
 </body>

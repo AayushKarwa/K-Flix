@@ -1,0 +1,15 @@
+{
+  "name": "tv-show-search-app",
+  "version": "1.0.0",
+  "description": "This is a simple web application that allows users to search for TV shows using the TVmaze API. The application displays the resulting TV show images in a responsive grid layout. The layout is styled using the Bulma CSS framework and custom CSS for flexbox properties.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
