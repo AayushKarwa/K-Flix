@@ -12,7 +12,7 @@ This is a simple web application that allows users to search for TV shows using 
 - Search for TV shows by name.
 - Display TV show images in a responsive grid layout.
 - Uses Bulma for styling.
-- Utilizes the TVmaze API to fetch TV show data.
+- Utilizes the TMDB API to fetch TV show data.
 
 ## Technologies Used
 
@@ -20,7 +20,7 @@ This is a simple web application that allows users to search for TV shows using 
 - CSS (Bulma CSS framework)
 - JavaScript
 - Axios (for making API requests)
-- TVmaze API
+- TMDB API
 
 ## Getting Started
 
